@@ -1,0 +1,22 @@
+{
+  "name": "gulp-remove-larger",
+  "version": "1.0.0",
+  "description": "Removes files that are larger then their originals",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tryonegg/gulp-remove-larger.git"
+  },
+  "keywords": [
+    "gulpplugin"
+  ],
+  "author": "Tryon Eggleston",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tryonegg/gulp-remove-larger/issues"
+  },
+  "homepage": "https://github.com/tryonegg/gulp-remove-larger#readme"
+}
