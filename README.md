@@ -5,12 +5,12 @@ gulp-remove-larger is a [gulp](https://github.com/wearefractal/gulp) plugin to r
 ## Usage
 
 ```javascript
-var remove-larger = require("gulp-remove-larger");
+var removelarger = require("gulp-remove-larger");
 
 // process pngs to webp and delete the webp if its larger then the png
 gulp.src('src/images/**/*.png')
     .pipe( webp() ) // or some other image conversion
-    .pipe( remove-larger() )
+    .pipe( removelarger() )
     .pipe( gulp.dest('dist/images/') );
 ```
 
